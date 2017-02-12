@@ -1,0 +1,18 @@
+VisualResume::VisualResume(
+  titles.left = c("Familia Cam", 
+                  "parte de la historia", 
+                  "*Built with love in R using the VisualResume package: https://github.com/ndphillips/VisualResume"),
+  titles.right = c("Andree Valle Campos", "avallecam@gmail.com", "Twitter: @xctbl_mdm"),
+  titles.left.cex = c(4, 2, 1),
+  titles.right.cex = c(2, 2, 1),
+  timeline.labels = c("China", "Abuelito Cam"),
+  
+  timeline= read.csv("data-raw/timeline.csv"),
+  milestones = read.csv("data-raw/milestones.csv"),
+  events = read.csv("data-raw/events.csv"),
+  
+  interests = list("programming" = c(rep("R", 10), rep("Python", 1), rep("JavaScript", 2), "MatLab"),
+                   "statistics" = c(rep("Decision Trees", 10), rep("Bayesian", 5), rep("Regression", 3)),
+                   "leadership" = c(rep("Motivation", 10), rep("Decision Making", 5), rep("Manipulation", 30))),
+  year.steps = 10
+)
