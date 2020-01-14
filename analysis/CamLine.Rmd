@@ -18,9 +18,10 @@ knitr::opts_knit$set(root.dir = '../.')
 
 ```{r CAM, fig.width=15, fig.height=10}
 VisualResume::VisualResume(
-  titles.left = c("Familia Cam", 
-                  "parte de la historia", 
-                  "*Built with love in R using the VisualResume package: https://github.com/ndphillips/VisualResume"),
+  titles.left = 
+    c("Familia Cam", 
+      "parte de la historia", 
+      "*Built with love in R using the VisualResume package: https://github.com/ndphillips/VisualResume"),
   titles.right = c("Andree Valle Campos", "avallecam@gmail.com", "Twitter: @xctbl_mdm"),
   titles.left.cex = c(4, 2, 1),
   titles.right.cex = c(2, 2, 1),
